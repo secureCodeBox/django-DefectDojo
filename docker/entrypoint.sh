@@ -27,6 +27,7 @@ python manage.py loaddata benchmark_requirement
 python manage.py loaddata language_type
 python manage.py loaddata objects_review
 python manage.py loaddata regulation
+python manage.py loaddata /opt/django-DefectDojo/docker/sample_data/juiceAndBodge.json
 python manage.py installwatson
 python manage.py buildwatson
 python manage.py collectstatic --noinput
