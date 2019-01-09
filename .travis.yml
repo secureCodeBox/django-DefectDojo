@@ -2,7 +2,7 @@ services:
   - docker
 
 script:
-  - export REPO=j12934/defect-dojo
+  - export REPO=securecodebox/defect-dojo
   - export TAG=$(echo $TRAVIS_BRANCH | sed 's/\//-/g')
   - echo -en "travis_fold:start:Docker_Build\r"
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
